@@ -1,6 +1,10 @@
+import MainSectionLayout from "../components/layout/MainSectionLayout";
+
 function ProjectDetailsPage() {
     return (
-        <h1>Project Details Page</h1>
+        <MainSectionLayout>
+            <h1>Project Details Page</h1>
+        </MainSectionLayout>
     );
 }
 
