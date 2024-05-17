@@ -1,9 +1,12 @@
 import MainSectionLayout from "../components/layout/MainSectionLayout";
+import ProjectsList from "../components/main/ProjectsList";
+import {ALL_PROJECTS} from "../data/all-projects";
 
 function ProjectsPage() {
     return (
         <MainSectionLayout>
-            <h1>Projects Page</h1>
+            <h1 className="center">All Projects</h1>
+            <ProjectsList projects={ALL_PROJECTS}/>
         </MainSectionLayout>
     );
 }

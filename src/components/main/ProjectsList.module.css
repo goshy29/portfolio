@@ -1,0 +1,18 @@
+.project_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    background: lightgreen; 
+
+    /* width: 90%;
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    margin: 2rem auto; 
+    background: lightgreen;   */
+}
+
+.project_items li {
+    list-style: none;
+}

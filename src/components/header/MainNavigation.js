@@ -3,7 +3,7 @@ import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
     return (
-        <header>
+        <header className={classes.main_header}>
             <nav className={classes.navbar}>
                 <div className={classes.navbar_logo}>
                     <Link to="/" className={classes.navbar_logo_link}>LOGO</Link>
