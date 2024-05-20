@@ -8,7 +8,7 @@ function HeaderAboutSection() {
             <img src={aboutImg} alt="An image showing George"/>
         </div>
         <div className={classes.section_about}>
-            <h1>Hi, I am George</h1>
+            <h1><span>Hi, I am George</span></h1>
             <p>I blog about web development- especially<br/> frontend frameworks like React or Angular.</p> 
         </div>   
     </section>

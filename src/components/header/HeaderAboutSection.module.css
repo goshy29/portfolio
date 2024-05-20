@@ -1,5 +1,5 @@
 .section {
-    background: lightsalmon;
+    background: #808080;
     display: flex;
     padding: 3rem 4rem;
     text-align: center;
@@ -26,6 +26,15 @@
 
   .section_about h1 {
     text-align: left;
+  }
+
+  span {
+    color: lightsalmon;
+  }
+
+  .section_about p {
+    color: white;
+    font-size: 20px;
   }
 
   @media (max-width: 768px) {
