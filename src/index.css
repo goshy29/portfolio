@@ -8,10 +8,11 @@
 
 body {
   font-family: "Montserrat";
-  background: lightblue;
+  background: #333646;
 }
 
 .center {
   text-align: center;
   padding-bottom: 2rem;
+  color: white;
 }

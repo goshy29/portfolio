@@ -1,5 +1,5 @@
 .section {
-    background: #808080;
+    background: #0a0919;
     display: flex;
     padding: 3rem 4rem;
     text-align: center;
@@ -12,7 +12,6 @@
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     overflow: hidden;
-    background-color: var(--color-grey-700);
   }
 
   .section_img img{ 
@@ -21,7 +20,7 @@
   }
 
   .section_about {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
 
   .section_about h1 {
@@ -34,7 +33,7 @@
 
   .section_about p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   @media (max-width: 768px) {
