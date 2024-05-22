@@ -1,7 +1,6 @@
-
 .header {
     padding-bottom: 8px;
-    border-bottom: 8px solid black;
+    border-bottom: 6px solid #333646;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +9,7 @@
   
   .header h1 {
     font-size: 48px;
-    color: white;
+    color: #252734;
     text-align: center;
   }
   
@@ -19,6 +18,23 @@
     width: 300px;
     height: 180px;
   }
+
+  .content {
+    width: 95%;
+    max-width: 60rem;
+    margin: 6px auto;
+    line-height: 8px;
+    background-color: #dfdbe6;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  .content p {
+    color: #252734;
+    font-size: 20px;
+    line-height: 1;
+    padding: 2rem;
+  }
   
   @media (max-width: 768px) {
     .header {
@@ -26,9 +42,18 @@
       padding: 1rem 0;
       text-align: center;
     }
+
+    .header img {
+      width: 250px;
+      height: 150px;
+    }
   
     .header h1 {
       font-size: 34px;
-      padding-top: 4px;
+      padding-top: 14px;
+    }
+
+    .content p {
+      font-size: 16px;
     }
   }

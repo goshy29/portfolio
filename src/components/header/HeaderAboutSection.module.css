@@ -1,4 +1,10 @@
+.wrap {
+  background: #0a0919; 
+}
+
 .section {
+    max-width: 70rem;
+    margin: 0 auto;
     background: #0a0919;
     display: flex;
     padding: 3rem 4rem;
