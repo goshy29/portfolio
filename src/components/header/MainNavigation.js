@@ -20,10 +20,10 @@ function MainNavigation() {
         <>
             {isMobileNavOpen && (<MobileNavWrap onClick={handlerCloseMobileNav}/>)}
             {isMobileNavOpen && 
-                (<MobileNavigation>
+                (<MobileNavigation onClose={handlerCloseMobileNav}>
                     <nav className={classes.mobile_navbar}>
                         <ul className={classes.mobile_navbar_list}>
-                            <NavLinks/>
+                            <NavLinks />
                         </ul>    
                     </nav>        
                 </MobileNavigation>)

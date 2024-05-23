@@ -91,7 +91,8 @@
       padding: 10px 20px;
     }
 
-    .mobileNav_btn_menu {
+    .mobileNav_btn_menu,
+    .close_button {
       display: flex;
     }
 
