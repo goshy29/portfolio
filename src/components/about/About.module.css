@@ -1,0 +1,9 @@
+.about {
+    width: 95%;
+    max-width: 60rem;
+    margin: 6px auto;
+    line-height: 8px;
+    background-color: #dfdbe6;
+    border-radius: 6px;
+    padding: 8px;
+  }
