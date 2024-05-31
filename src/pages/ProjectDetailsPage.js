@@ -8,10 +8,6 @@ function ProjectDetailsPage() {
     const { projectId } = useParams();
     const project = LATEST_PROJECTS.find(p => p.id === projectId);
 
-    if (!project) {
-        return <p>Project not found!</p>;
-    }
-
     return (
         <>
             <Helmet>
@@ -20,7 +16,8 @@ function ProjectDetailsPage() {
             </Helmet>
 
             <MainSectionLayout>
-                <ProjectItemDetails project={project} />
+                {!project && (<h1>Project not found!</h1>)}
+                {project && (<ProjectItemDetails project={project} />)}
             </MainSectionLayout>
         </>
     );
