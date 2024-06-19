@@ -30,20 +30,22 @@ function MainNavigation() {
             }
         
             <header className={classes.main_header}>
-                <nav className={classes.navbar}>
-                    <button className={classes.mobileNav_btn_menu} onClick={handlerOpenMobileNav}>
-                        <span />
-                        <span />
-                        <span />
-                    </button>
+                <div className={classes.navigation}>
+                    <nav className={classes.navbar}>
+                        <button className={classes.mobileNav_btn_menu} onClick={handlerOpenMobileNav}>
+                            <span />
+                            <span />
+                            <span />
+                        </button>
 
-                    <div className={classes.navbar_logo}>
-                        <Link to="/" className={classes.navbar_logo_link}>LOGO</Link>
-                    </div>
-                    <ul className={classes.navbar_list}>
-                        <NavLinks/>
-                    </ul>
-                </nav>
+                        <div className={classes.navbar_logo}>
+                            <Link to="/" className={classes.navbar_logo_link}>LOGO</Link>
+                        </div>
+                        <ul className={classes.navbar_list}>
+                            <NavLinks/>
+                        </ul>
+                    </nav>
+                </div>
             </header>
         </>
     );

@@ -3,12 +3,18 @@
   top: 0;
 }
 
-.navbar {
+.navigation {
   background-color: #252734;
+  width: 100%;
+}
+
+.navbar {
+  margin: auto;
   padding: 20px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 70rem;
 }
 
 .navbar_logo {
