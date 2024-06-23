@@ -16,3 +16,10 @@ body {
   padding-bottom: 2rem;
   color: white;
 }
+
+.error {
+  max-width: 70rem;
+  margin: auto;
+  padding: 0 10px;
+  color: white;
+}
